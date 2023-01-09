@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>yoga-study</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head> 
+<body id="myPage"> 
+
+ <nav  class="navbar navbar-inverse">
+<div class="container">
+ <!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">        
+<a href="#" class="navbar-brand"><img src="images/vector-2-yoga.png" alt="..."></a>
+<a href="#" class="navbar-brand">yoga-study</a>
+</div>
+
+<!-- Collection of nav links, forms, and other content for toggling -->
+<div id="navbarCollapse" class="collapse navbar-collapse">
+<ul class="nav navbar-nav">          
+<li><a href="index.html">Home</a></li>		
+<li><a href="classes.html"> classes </a></li>				
+<li class="dropdown">
+<a data-toggle="dropdown" class="dropdown-toggle" href="#">contact  <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="inbox.html">Inbox</a></li>
+<li><a href="draft.html">Drafts</a></li>
+<li> <a href="sent-items.html">Sent Items</a></li>
+<li class="divider"></li>               
+<li> <a href="trash.html">Trash</a></li>
+</ul>
+</li>
+
+
+<li><a href="time-table.html"> time-table </a></li>							
+<li><a href="gallery.html"> gallery </a></li>							
+<li><a href="about.html"> about us </a></li>
+<li><a href="registation.html"> registation </a></li>
+<li class="active"><a href="login.html"> login </a></li>
+</ul>		
+</div>
+</div>
+</nav>
+
+ <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Login Form</h2>
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+ 
+ 
+ 
+</body>
+</html>
